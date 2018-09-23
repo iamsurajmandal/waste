@@ -1,0 +1,437 @@
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+
+	}
+.navbar-nav{
+  padding: 0px 0px 0px 40px;
+}
+  .nav>li>a{
+    padding: 15px 50px;
+  }
+/*count-banner*/
+.couon{
+  height:40vh;
+  width: 100%;
+  border: 1px solid #111111;
+  background-image: url('images/countgar.jpg');
+  margin-bottom: -20px;
+  margin-top: -20px;
+
+
+}
+
+
+
+
+/*banner */
+.ban{
+  border: 1px hidden black;
+  height:50vh;
+   width: 100%;
+  background-image: url("images/banner.jpg");
+  background-position:center;
+}
+.ban h1{
+  padding-top: 10px;
+  font-size: 20px;
+   color: #f2f2f2;
+   text-align: center;
+}
+.ban h1 span{
+  color:#f17800;
+
+}
+
+.ban-box{
+border: 1px hidden black;
+height:40vh;
+width: 100%;
+background-color: #111111;
+}
+
+.ban-box input{
+  color: #f2f2f2;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  font-size: 20px;
+  margin: 10px 0px 10px 90px;
+  text-align: center;
+}
+
+.ban-box select{
+  width:230px;
+  color: #f2f2f2;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  font-size: 20px;
+  padding: 0px 0px 0px 20px;
+  margin: 5px 0px 10px 90px;
+
+}
+
+
+.ban-box select option{
+  padding-right: 50px;
+  font-size:10px;
+  color: #f17800;
+  background-color: #111111;
+}
+
+.sub{
+     border: 2px solid #f17800;
+     border-radius: 20px;
+     margin: 20px 0px 0px 120px;
+     width: 170px;
+     height: 7vh;
+  background-color:#111111;
+}
+
+#pre{
+  border-bottom: none;
+  font-size: 25px;
+  margin: 2px 0px 0px 10px;
+  text-decoration:none;
+
+}
+/*offer*/
+.offer{
+     border: 1px hidden #111111;
+     height: 215vh;
+     width: 100%;
+}
+
+.offer h1{
+  padding-top: 50px;
+  font-size: 30px;
+   color: #2DAB57;
+   text-align: center;
+
+}
+.offer h1 span{
+  color:#f17800;
+  text-decoration:underline;
+  text-decoration-color:#2DAB57;
+
+}
+
+
+
+.offer h2{
+  padding-top: 10px;
+  font-size: 20px;
+   color: #33CCFF;
+   text-align: center;
+
+}
+
+/*inside offer box*/
+.offer-com{
+  margin-top: 10px;
+  border: 1px hidden #111111;
+  height: 35vh;
+
+}
+
+.img{
+  border: 1px  hidden #111111;
+  height: 20vh;
+}
+.img1{
+  border: 1px  hidden #111111;
+  height: 20vh;
+}
+.img2{
+  border: 1px  hidden #111111;
+  height: 20vh;
+}
+.img3{
+  border: 1px  hidden #111111;
+  height: 20vh;
+}
+.img4{
+  border: 1px  hidden #111111;
+  height: 20vh;
+}
+.com-w h4{
+  color: #111111;
+  font-size: 20px;
+  text-align: center;
+}
+
+.com-w:hover h4{
+  color:#2DAB57;
+
+
+}
+.eco-text p{
+  color: #111111;
+  font-size: 15px;
+  text-align: center;
+}
+
+.our-moto{
+  margin: 10px 0px 0px 0px;
+  border: 1px hidden #111111;
+  height: 25vh;
+  width: 100%;
+}
+.our-moto h5{
+  font-size: 25px;
+  text-align: center;
+  color: #2dab57;
+
+
+}
+.our-moto h3{
+  font-size: 15px;
+  text-align: center;
+  color: #100c08;
+}
+
+
+.choose{
+border: 1px hidden #111111;
+height:30vh;
+width: 100%;
+background-image: url('images/nature.jpg');
+background-position: center;
+
+}
+.choose h5{
+ font-size: 25px;
+ text-align: center;
+ padding-top: 15px;
+ font-weight:900;
+ color: #111111;
+ opacity: 1;
+
+
+}
+
+.choose h6 {
+  padding-top: 15px;
+  position: absolute;
+  transition: opacity .5s ease-in;
+  opacity: 0;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  color:#f2f2f2;
+
+}
+
+
+
+
+
+
+
+.img{
+ background-image: url('images/office1.jpeg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+
+
+}
+
+.img:hover {
+    background: url('images/office3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img1{
+
+   background-image: url('images/home.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:contain;
+
+}
+.img1:hover {
+    background: url('images/home1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.img2{
+
+   background-image: url('images/factory1.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.img2:hover {
+    background: url('images/factory.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img3{
+
+   background-image: url('images/Recycling.svg.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+
+}
+.img3:hover {
+    background: url('images/recycling1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.img4{
+
+   background-image: url('images/folder.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   height: 15vh;
+
+}
+.img4:hover {
+    background: url('images/folder1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+
+
+
+/* footer tag for website*/
+.foot{
+ border: 1px solid #111111;
+ height: 70vh;
+ width: 100%;
+ background-color: #111111;
+}
+
+.home-link{
+  border: 1px hidden #f2f2f2;
+  height: 8vh;
+  width: 100%;
+  background-color: #111111;
+
+
+}
+
+.home-link ul li{
+   width: 28%;
+   float: left;
+}
+
+.home-link ul li{
+  margin-right: 5px;
+  color: #f2f2f2;
+  font-size: 15px;
+  font-weight: 400;
+  list-style-type: none;
+  padding: 2px 0px 2px 0px;
+  float: left;
+}
+.home-link ul li:hover{
+  color:#2dab57;
+
+}
+
+
+.social-media{
+  border: 1px hidden #f2f2f2;
+  height: 6vh;
+  width:100%;
+  background-color: white;
+}
+.social-media img{
+  height: 5vh;
+  background-position: center;
+  width: 40px;
+  float: left;
+  margin: 2px 10px 2px 40px;
+
+
+}
+.foo-ser{
+  border: 1px hidden #f2f2f2;
+  height: 35vh;
+  float: left;
+  margin: 5px 0px 0px 0px;
+
+}
+
+.foo-ser h3{
+  font-size: 25px;
+  padding-left:40px;
+ color: #f2f2f2;
+
+
+}
+.foo-ser ul li{
+  color: #f2f2f2;
+  font-size: 15px;
+  list-style-type: none;
+  padding-top: 5px;
+
+
+}
+.foo-ser ul li:hover{
+  color: #f17801;
+}
+
+
+.contacts{
+  border: 1px hidden #f2f2f2;
+
+  height: 33vh;
+  width: 40%;
+  margin: 5px 0px 0px 230px;
+}
+
+.contacts h3{
+ color: #f2f2f2;
+ text-align: center;
+ padding: 5px 0px 0px 0px;
+
+}
+
+.contacts h2{
+ color: #f2f2f2;
+ font-size: 20px;
+ text-align: center;
+
+}
+
+.contacts p{
+ color: #f2f2f2;
+ text-align: center;
+ padding: 2px 10px 0px 0px;
+
+}
+
+.contacts h1{
+  font-size: 10px;
+ color: #f2f2f2;
+ text-align: left;
+line-height: 1px;
+}
+
+
+.copyright h1{
+  font-size: 10px;
+text-align: center;
+margin-top: 0px;
+}
