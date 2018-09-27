@@ -1,0 +1,755 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*my code*/
+
+
+
+
+*{
+    text-decoration: none;
+
+
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+
+}
+
+header .header-brand{
+    font-family: catamaran;
+    font-size: 10px;
+    color: #111;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    margin: 0px 0px -40px 0px;;
+    text-align: center;
+    padding:20px 0;
+}
+
+header nav ul
+{  display: block;
+    margin: 0 auto;
+    width:fit-content;
+
+    }
+header nav ul li
+{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 6px;
+
+    }
+header nav ul li a
+{
+     font-family: catamaran;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+    }
+header .header-cases{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*Logo of services*/
+
+/*Footer*/
+footer{
+    width: calc(100%-80px);
+    padding: 20px 20px;
+    background-color: #111;
+    overflow: hidden;
+    margin-top: 20px;
+}
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+    }
+footer ul li{
+    display: block;
+    list-style: none;
+
+}
+footer ul li a{
+   font-family: catamaran;
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+
+}
+
+.footer-links-cases{
+    display: none;
+
+}
+.footer-sm{
+    width: 50px;
+    float: right;
+    background-color: white;
+
+}
+
+.footer-sm img{
+
+    width: 100%;
+    margin-bottom: 0px;
+
+}
+
+/*applying media */
+
+
+.ab{
+border:1px hidden black;
+height: 10vh;
+
+
+
+}
+
+.ab h6{
+   font-size:20px;
+   font-family: catamaran;
+   text-align: center;
+   padding-top: 0px;
+
+
+
+}
+
+h6{
+      font-size:20px;
+   font-family: catamaran;
+   text-align: center;
+   line-height: 30px;
+
+
+}
+
+.vbox{
+border:1px hidden black;
+height: 10vh;
+
+
+
+}
+
+*{
+  font-family: catamaran;
+
+
+}
+
+.mbox{
+border:1px hidden black;
+height: 10vh;
+
+
+}
+.vbox h1{
+   padding-top: 4px;
+   padding-left: 16px;
+   color: #f99372;
+   font-size: 20px;
+   text-align: center;
+
+
+
+}
+.mbox h1{
+   padding-top: 30px;
+   color: #f99372;
+   font-size: 20px;
+   text-align: center;
+   padding-top: 10px;
+
+
+
+}
+
+
+
+
+.vision{
+border:1px hidden black;
+height: 2vh;
+width:80px;
+text-align: center;
+margin-left:160px ;
+margin-top: 5px;
+margin-bottom: 5px;
+background-color: #1cb9f2;
+
+
+
+}
+
+
+
+
+.moto{
+border:1px hidden black;
+height: 2vh;
+width:80px;
+text-align: center;
+margin-left:160px ;
+margin-top: 30px;
+margin-bottom: 5px;
+background-color: #1cb9f2;
+
+
+
+}
+.moto h1{
+  color:#f2f2f2;
+  text-transform: uppercase;
+
+
+
+}
+.vision h1{
+  color:#f2f2f2;
+  text-transform: uppercase;
+
+
+}
+
+h4{
+ color:#1cb9f2;
+ margin: 10px;
+
+
+}
+.e{
+  border: 1px solid #111;
+  margin: 5px;
+
+}
+.e h1{
+    text-align: center;
+    font-size: 20px;
+    color:#111;
+    padding: 5px;
+    height: 80vh;
+
+
+}
+.e h1 mark{
+  color:#1cb9f2;
+
+
+}
+.wimg{
+  border: 1px solid #111;
+height:20vh;
+
+}
+
+
+
+
+.key{
+border:1px hidden black;
+height: 4vh;
+width:160px;
+text-align: center;
+margin-left:120px ;
+margin-top: 5px;
+margin-bottom: 5px;
+background-color: #1cb9f2;
+
+
+
+}
+
+.key h1{
+   padding-top: 5px;
+  text-align: center;
+  color:#f2f2f2;
+  text-transform: uppercase;
+
+
+
+}
+
+.el{
+     border: 1px hidden #111;
+     height: 50vh;
+     margin: 5px;
+     padding:5px;
+
+
+}
+
+.el ul{
+    padding-left: 20px;
+
+}
+
+
+
+.mo{
+border:1px solid black;
+height: 10vh;
+background-color: #1cb9f2;
+
+
+
+}
+
+@media only screen and (min-width:1000px){
+  header .header-brand{
+      display: block;
+      margin: 0px 0px -30px 0px;
+      text-align: left;
+  }
+
+  header nav ul
+  {
+     text-align: center;
+      margin:0px 0px 0px 400px;
+
+
+      }
+  header nav ul li
+  {
+
+      float: none;
+    =
+      padding: 0 6px;
+
+      }
+  header nav ul li a
+  {
+       font-family: catamaran;
+      font-size: 16px;
+      color: #111;
+      line-height: 5px;
+      }
+  header .header-cases{
+      display:inline;
+      border: 5px solid #111;
+  }
+
+
+
+  .ab{
+  border:1px hidden black;
+  height: 15vh;
+background-color: #1cb9f2;
+
+
+  }
+
+  .ab h6{
+    padding-top: 30px;
+     font-size:40px;
+
+     text-align: left;
+
+
+
+
+  }
+
+
+  h6{
+   padding-top: 30px;
+
+     text-align: center;
+
+
+
+  }
+
+  .vbox{
+    border: 1px solid #111111;
+    margin:20px 0px 0px 100px;
+
+
+
+
+  }
+
+  .mbox{
+    border: 1px solid #111111;
+
+    margin:0px 0px 0px 100px;
+
+
+
+
+
+  }
+
+
+
+
+  .vision{
+
+  height: 6vh;
+  width:150px;
+  float: left;
+  margin-left:10px ;
+  margin-top: 30px;
+
+
+
+
+
+  }
+  .vision h1{
+    text-align: center;
+    padding: 15px;
+
+  }
+
+
+
+
+  .moto{
+  height: 6vh;
+  width:150px;
+  float: left;
+  margin-left:10px ;
+  margin-top: 10px;
+
+
+
+
+  }
+  .moto h1{
+    text-align: center;
+    padding: 15px;
+
+
+
+  }
+
+
+  h4{
+
+   text-align: center;
+
+
+  }
+  h6{
+    margin-top: -5px;
+    text-align: center;
+  }
+  .key{
+
+  height: 4vh;
+  margin-left: 1px;
+  width:100%;
+
+
+
+
+  }
+
+  .key h1{
+    font-size: 20px;
+  padding-top: 5px;
+
+
+
+  }
+
+  .el{
+
+       height: 30vh;
+       margin: 5px;
+       padding:5px;
+
+
+  }
+
+  .el ul{
+      padding-left: 20px;
+      font-size: 17px;
+      font-weight: bold;
+
+  }
+
+
+
+  .mo{
+  border:1px solid black;
+  height: 10vh;
+  background-color: #1cb9f2;
+
+
+
+  }
+
+  .mo h6{
+     font-size:20px;
+     font-family: catamaran;
+     text-align: center;
+     padding-top: 25px;
+  }
+
+  .meet{
+  border:1px solid black;
+  height: 4vh;
+  width:100px;
+  margin: 2px 0px 2px 700px;
+
+  }
+  .meet  h1{
+    padding: 5px;
+    color:#f2f2f2;
+  }
+
+
+
+  .f{
+    border: 1px hidden #111;
+    height: 51vh
+
+
+
+  }
+  .fimg{
+
+    width: 400px;
+    float: left;
+    height:50vh;
+
+
+
+  }
+  .ed{
+    border: 1px solid #111;
+    margin: 5px;
+    height: 50vh;
+    width: 600px;
+    float: right;
+
+
+
+  }
+  .ed h1{
+      text-align: center;
+      font-size: 20px;
+      color:#111;
+      padding: 15px;
+  }
+
+  .founder{
+    border: 1px hidden black;
+    height:15vh;
+    margin-top: 0px;
+  }
+  .follow{
+    border: 2px solid black;
+    height: 4vh;
+    width:280px;
+    margin:-100px 484px 0px 0px;
+    float:right;
+
+  }
+  .ceo {
+
+     margin:0px 0px 5px 0px;
+     width: 400px;
+     height: 15vh;
+
+
+  }
+  .ceo h1{
+
+
+  }
+  .s{
+    border: 1px solid  #111;
+    height: 12vh;
+    width:765px;
+    margin:-79px 1px 0px 0px;
+    background-color: #1cb9f2;
+    float:right;
+
+
+  }
+  .s h1{
+  padding:px 0px 0px 0px;
+
+  }
+  .s h2{
+    float: right;
+    font-weight: 100;
+    text-align: right;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #f2f2f2;
+  }
+
+
+    .core {
+
+    height: 4vh;
+    width: 300px;
+    margin: 10px 0px -9px 400px;
+    }
+    .core h6{
+      font-size: 16px;
+
+
+
+    }
+
+
+  .team{
+     border: 1px hidden #111;
+     height:40vh;
+     margin:0px auto;
+
+
+  }
+  .timg{
+    border:1px solid #111;
+    height:35vh;
+    width: 200px;
+    margin: 10px 10px 10px 60px;
+    float:left;
+  }
+  .det{
+     border: 1px solid #111;
+     width: 200px;
+
+     height: 15vh;
+     padding-top: 25px;
+
+  }
+  .timg h1{
+    margin: 5px;
+    line-height: 20px;
+    font-size:15px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+}

@@ -1,0 +1,27 @@
+{
+  "name": "servicelearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "insert.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node insert.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suraj69/waste.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suraj69/waste/issues"
+  },
+  "homepage": "https://github.com/suraj69/waste#readme"
+}
